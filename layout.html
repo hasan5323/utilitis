@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>Float & Align</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      line-height: 1.4em;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 30px auto;
+    }
+
+    .clr {
+      clear: both;
+    }
+
+    .box {
+      background: #f4f4f4;
+      border: 1px solid #333;
+      padding: 20px 15px;
+      margin-bottom: 17px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .box p {
+      /* Text Align */
+      /* text-align: left;
+      text-align: right;
+      text-align: center; */
+      text-align: justify;
+    }
+    .box h3 {
+      color: darkcyan;
+    }
+
+    #box-2 {
+      float: left;
+      width: 58%;
+    }
+
+    #box-3 {
+      float: right;
+      width: 30%;
+    }
+    #box-4 {
+      float: right;
+      width: 30%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="box-1" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolor, soluta esse voluptas aliquam eligendi veritatis illo impedit minus unde.</p>
+    </div>
+    <div id="box-2" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur adipisci id, quos illo ut natus facilis veniam repellat beatae nobis, cumque ea dicta earum repellendus sequi corrupti nisi quidem officia eum impedit? Sint dignissimos quod modi a ullam distinctio vitae! Consequatur, ullam laboriosam iste labore ducimus aspernatur, facilis at voluptatum accusantium, nesciunt iusto vero ex maiores! Id dolorem labore reprehenderit expedita ex illo, sed numquam quis eaque nisi modi pariatur sequi voluptas nostrum. Iure officia impedit possimus explicabo modi alias dolor, maiores enim, aliquid obcaecati consectetur corporis ratione dolorem architecto sit voluptates omnis est aut ipsa dolore eius. Neque sapiente libero voluptatem corrupti voluptatum debitis ipsum necessitatibus esse dignissimos cumque, consequuntur minima dicta illo porro! Recusandae ratione deserunt neque tenetur. Placeat quis commodi nesciunt sunt recusandae ad quidem blanditiis quaerat iste, tempore vel delectus quisquam veritatis quo sed. Vero eligendi optio ab! Blanditiis saepe, esse exercitationem repudiandae dolorum voluptatum quidem.</p> 
+    </div>
+    <div id="box-3" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolor, soluta esse voluptas aliquam eligendi veritatis illo impedit minus unde.</p>
+    </div>
+    <div id="box-4" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolor, soluta esse voluptas aliquam eligendi veritatis illo impedit minus unde.</p>
+    </div>
+    <div class="clr"></div>
+    <div id="box-5" class="box">
+      <h3 class="w3-teal">Heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolor, soluta esse voluptas aliquam eligendi veritatis illo impedit minus unde.</p>
+    </div>
+  </div>
+</body>
+</html>
